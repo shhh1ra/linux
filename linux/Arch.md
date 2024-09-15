@@ -31,7 +31,34 @@ sudo pacman -S steam flatpak neofetch
 ```
 flatpak install flathub org.telegram.desktop com.mattjakeman.ExtensionManager com.discordapp.Discord com.github.tenderowl.frog io.github.vikdevelop.SaveDesktop
 ```
+****
+**ZSH:**
+```
+sudo pacman -S zsh
+```
+**Установить ohMyZsh:**
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+**Установить тему powerlevel10k:**
+```
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+**Применить тему**
+```
+sudo nano ~/.zshrc
+```
+Заменить **ZSH_THEME="robbyrussell"** на **ZSH_THEME="powerlevel10k/powerlevel10k"**
 
+**Если не выбрался zsh:**
+```
+sudo nano ~/.bashrc
+```
+*в первую строку:*
+```
+exec zsh
+```
+****
 **Wifi connect:**
 ```
 iwctl
