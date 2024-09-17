@@ -41,3 +41,14 @@ sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf
 ```
 Option "XkbOptions" "grp:alt_shift_toggle"
 ```
+****
+**Off repos:**
+```
+sudo pacman -S steam flatpak
+```
+
+****
+**Flatpaks:**
+```
+flatpak install flathub org.telegram.desktop com.discordapp.Discord
+```
