@@ -21,7 +21,7 @@ Include = /etc/pacman.d/mirrorlist
 ```
 sudo pacman -Sy
 ```
-
+****
 **Check if russian avaliable**
 ```
 localectl list-keymaps | grep -i ru
@@ -36,5 +36,5 @@ sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf
 ```
 **Add to last str:**
 ```
-Option "XkbOptions" "grp:ctrl_shift_toggle"
+Option "XkbOptions" "grp:alt_shift_toggle"
 ```
