@@ -18,3 +18,6 @@ sudo nano /etc/pacman.conf
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
+```
+sudo pacman -Sy
+```
