@@ -26,3 +26,15 @@ sudo pacman -Sy
 ```
 localectl list-keymaps | grep -i ru
 ```
+
+**Add ru locale**
+```
+sudo nano /etc/vconsole.conf
+```
+```
+sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf
+```
+**Add to last str:**
+```
+Option "XkbOptions" "grp:ctrl_shift_toggle"
+```
