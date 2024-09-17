@@ -21,3 +21,8 @@ Include = /etc/pacman.d/mirrorlist
 ```
 sudo pacman -Sy
 ```
+
+**Check if russian avaliable**
+```
+localectl list-keymaps | grep -i ru
+```
