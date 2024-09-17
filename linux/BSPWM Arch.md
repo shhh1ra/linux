@@ -8,7 +8,7 @@ sudo nano ~/.zshrc
 ```
 ZSH_THEME="powerlevel10k/powerlevel10k"
 ```
-*
+**
 **Enable multilib:**
 ```
 sudo nano /etc/pacman.conf
