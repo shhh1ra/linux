@@ -36,6 +36,7 @@ sudo nano /etc/vconsole.conf
 sudo nano /etc/X11/xorg.conf.d/00-keyboard.conf
 ```
 `"XkbLayout" "us" -> "XkbLayout" "us,ru"`
+
 **Add to last str:**
 ```
 Option "XkbOptions" "grp:alt_shift_toggle"
