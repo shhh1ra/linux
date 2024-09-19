@@ -52,3 +52,13 @@ sudo pacman -S steam flatpak
 ```
 flatpak install flathub org.telegram.desktop com.discordapp.Discord
 ```
+****
+**hiddify:**
+```
+yay -S hiddify-next
+```
+
+**if fvm == pizdec:**
+```
+sudo pacman -S debugedit
+```
