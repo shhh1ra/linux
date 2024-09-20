@@ -66,3 +66,17 @@ station list
 station wlan0 get-networks
 station wlan0 connect <SSID_NAME>
 ```
+
+****
+**BSPWM Config**
+```
+sudo nano ~/.config/bspwm/bspwmrc
+```
+
+HZ:
+```
+xrandr
+```
+```
+xrandr --output {output} --mode {resolution} --rate {rate}
+```
