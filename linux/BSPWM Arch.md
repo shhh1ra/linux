@@ -62,3 +62,16 @@ yay -S hiddify-next
 ```
 sudo pacman -S debugedit
 ```
+****
+**BSPWM Config**
+```
+sudo nano ~/.config/bspwm/bspwmrc
+```
+
+**HZ:**
+```
+xrandr
+```
+```
+xrandr --output {output} --mode {resolution} --rate {rate}
+```
